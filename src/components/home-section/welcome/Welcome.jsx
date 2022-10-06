@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import './welcome.scss'
 
 import HomeSection from '../HomeSection'
-import Button from '../../button/Button'
+import Button from '../../button/button'
 
 import hoverEffect from 'hover-effect'
 
