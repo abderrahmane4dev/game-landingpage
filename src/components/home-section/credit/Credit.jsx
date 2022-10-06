@@ -3,7 +3,7 @@ import './credit.scss'
 import { useRef, useEffect } from 'react'
 
 import { bgVideo } from '../../../assets/videos'
-import Button from '../../button/Button'
+import Button from '../../button/button'
 
 const Credit = props => {
 
