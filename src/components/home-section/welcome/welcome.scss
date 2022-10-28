@@ -1,6 +1,7 @@
 @use "../../../scss/" as *;
 
 .welcome {
+   
     &__content {
         @include flex(center, center);
     }
@@ -12,7 +13,7 @@
     }
 
     &__info {
-        @include flex(flex-start, flex-end);
+       
 
         &__content {
             padding-top: 5rem;
@@ -41,5 +42,19 @@
                 display: block;
             }
         }
+    }
+}
+@media (max-width:$mobile-width){
+    .welcome{
+    display: block;
+
+    }
+    .welcome__info{
+        width: 100%;
+        padding-left: 0rem;
+    }
+    .welcome__img{
+        background-color: black;
+        display: none;
     }
 }

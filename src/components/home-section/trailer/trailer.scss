@@ -39,3 +39,18 @@
         transition-delay: 1s;
     }
 }
+@media (max-width:$mobile-width){
+    .trailer__content__info{
+        width: 100%;
+        padding: 10px 150px;
+    }
+    .trailer{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+    .trailer__content__img{
+        display: none;
+    }
+}

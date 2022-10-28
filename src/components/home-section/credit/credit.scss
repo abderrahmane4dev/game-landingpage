@@ -21,3 +21,12 @@
         }
     }
 }
+@media (max-width:$mobile-width){
+    .credit{
+        width: 100%;
+        padding: 50px 0;
+    }
+    .credit .overlay{
+        height: 100%;
+    }
+}

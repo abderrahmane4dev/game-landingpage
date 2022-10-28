@@ -2,7 +2,6 @@
 
 .champion-detail {
     position: fixed;
-    background-color: $black;
     top: 0;
     left: 0;
     width: 100%;
@@ -61,4 +60,18 @@
             width: 100%;
         }
     }
+}
+@media ( max-width: $mobile-width )  {
+    .swiper-slide{
+        display: flex;
+    }
+   
+}
+@media (max-width:$mobile-width) {
+
+    .champion-detail__content{
+        width: 100%;
+        text-align: center;
+    }
+    
 }

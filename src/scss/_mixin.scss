@@ -3,3 +3,9 @@
     align-items: $aligin-item;
     justify-content: $justify-content;
 }
+@mixin flex-mobile($aligin-item, $justify-content) {
+    display: flex;
+    flex-direction: column;
+    align-items: $aligin-item;
+    justify-content: $justify-content;
+}
